@@ -4,18 +4,17 @@ body {
 	font-family: freight--pro;
 	text-align: center;
 	font-size: 18px;
-	font-font-weight: 400;
+	font-weight: 400;
 	font-style: normal;
 	justify-content: center;
 	letter-spacing: 1.08px;
-	line-height: 32,4px;
 	max-width: 100%;
 	min-width: 0px;
 }
 hr {
 	width: 600px;
 }
-.slogan {
+#slogan {
 	font-style: italic;
 }
 ul {
