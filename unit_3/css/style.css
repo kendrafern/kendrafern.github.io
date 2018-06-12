@@ -12,6 +12,9 @@ body {
 	max-width: 100%;
 	min-width: 0px;
 	opacity: 1;
-	
 
+
+}
+hr {
+	width: 400px;
 }
