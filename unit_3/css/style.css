@@ -16,5 +16,10 @@ body {
 
 }
 hr {
-	width: 400px;
+	width: 600px;
+}
+
+li {
+	display: inline;
+	margin-right: 10px;
 }
