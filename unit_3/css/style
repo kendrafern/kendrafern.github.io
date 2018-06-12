@@ -1,7 +1,7 @@
 body {
 	background-color: rgb(230, 176, 152);
 	color: rgb(49, 21, 43);
-	font-family: : verdana;
+	font-family: verdana;
 	text-align: center;
 
 }
