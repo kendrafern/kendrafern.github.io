@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Istok+Web|Monda');
+@import url('https://fonts.googleapis.com/css?family=Rokkitt:300');
+
+body {
+	background-color: rgb(236, 235, 240);
+	color: rgb(34, 34, 34);
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+	justify-content: center;
+	letter-spacing: 1.08px;
+	max-width: 100%;
+	min-width: 0px;
+	font-family: 'Rokkitt', serif;
+	margin: 0 20em 0 20em;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 22px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border-top: 2px solid #000;
+	border-bottom: 1px solid #000;
+	width: 570px;
+	padding: 22px;
+	margin: 20px auto 20px auto;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 22px;
+}
+
+li {
+	display: inline;
+	margin-right: 8px;
+	font-size: 14px;
+}
+
+h1 {
+	font-family: 'Monda', sans-serif;
+	font-family: 'Istok Web', sans-serif;
+}	
+
+hr {
+	width: 600px;
+}
+
+#slogan {
+	font-style: italic;
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid
+	padding: 20px;
+}
+
+div {
+	background-color: #FFE2B8;
+}
