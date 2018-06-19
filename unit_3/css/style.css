@@ -13,8 +13,35 @@ body {
 	max-width: 100%;
 	min-width: 0px;
 	font-family: 'Rokkitt', serif;
+	margin: 0 20em 0 20em;
 }
 
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 22px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border-top: 2px solid #000;
+	border-bottom: 1px solid #000;
+	width: 570px;
+	padding: 22px;
+	margin: 20px auto 20px auto;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 22px;
+}
+
+li {
+	display: inline;
+	margin-right: 8px;
+	font-size: 14px;
+}
 
 h1 {
 	font-family: 'Monda', sans-serif;
@@ -28,20 +55,19 @@ hr {
 #slogan {
 	font-style: italic;
 }
-ul {
-	border-top: 2px solid #000;
-	border-bottom: 1px solid #000;
-	width: 570px;
-	padding: 15px;
-	margin: 10px auto 10px auto;
 
-}
-li {
-	display: inline;
-	margin-right: 8px;
-	font-size: 14px;
-}
+
 a {
 	text-decoration: none;
 	color: black;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid
+	padding: 20px;
+}
+
+div {
+	background-color: #FFE2B8;
 }
