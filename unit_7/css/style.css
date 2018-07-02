@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Istok+Web|Monda');
+@import url('https://fonts.googleapis.com/css?family=Rokkitt:300');
+
+body {
+	background-color: rgb(236, 235, 240);
+	color: rgb(34, 34, 34);
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+	justify-content: center;
+	letter-spacing: 1.08px;
+	max-width: 100%;
+	min-width: 0px;
+	font-family: 'Rokkitt', serif;	
+}
+
+nav {
+	border-top: 2px solid #000;
+	border-bottom: 1px solid #000;
+	width: 570px;
+	padding: 22px;
+	margin: 20px auto 20px auto;
+}
+
+
+li {
+	display: inline;
+	margin-right: 8px;
+	font-size: 14px;
+}
+
+h1 {
+	font-family: 'Monda', sans-serif;
+	font-family: 'Istok Web', sans-serif;
+}	
+
+hr {
+	width: 600px;
+}
+
+section {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#slogan {
+	font-style: italic;
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+#two_column {
+    
+}
+
+#left {
+    float: left;
+    width: 48%;
+}
+
+#right {
+    float: right;   
+    width: 48%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.wrapper {
+	width: 100%
+}
+
+#project {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
