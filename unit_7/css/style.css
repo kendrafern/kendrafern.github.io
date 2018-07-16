@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Francois+One|Istok+Web|Monda');
 @import url('https://fonts.googleapis.com/css?family=Rokkitt:300');
-
 body {
 	background-color: rgb(236, 235, 240);
 	color: rgb(34, 34, 34);
@@ -14,80 +13,105 @@ body {
 	min-width: 0px;
 	font-family: 'Rokkitt', serif;	
 }
-
-nav {
-	border-top: 2px solid #000;
-	border-bottom: 1px solid #000;
-	width: 570px;
-	padding: 22px;
-	margin: 20px auto 20px auto;
-}
-
-
-li {
-	display: inline;
-	margin-right: 8px;
-	font-size: 14px;
-}
-
-h1 {
-	font-family: 'Monda', sans-serif;
-	font-family: 'Istok Web', sans-serif;
-}	
-
-hr {
-	width: 600px;
-}
-
-section {
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-footer {
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-#slogan {
-	font-style: italic;
-}
-
-
-a {
+a {		
 	text-decoration: none;
 	color: black;
 }
-
-
-#two_column {
-    
+h1 {
+	font-family: 'Monda', sans-serif;
+	font-family: 'Istok Web', sans-serif;
 }
-
-#left {
-    float: left;
-    width: 48%;
+#slogan {
+	font-style: italic;
 }
-
-#right {
-    float: right;   
-    width: 48%;
+li {
+	display: inline-block;
+	font-size: 1.1em;
 }
-
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
+aside {
+	padding-bottom: 3%;
 }
-
-.wrapper {
-	width: 100%
+.project {
+	padding-top: 3%;
+	padding-left: 5%;
 }
-
-#project {
-	padding-top: 50px;
-	padding-bottom: 50px;
+.socialmedia {
+	padding-top: 5%;
 }
+@media only screen and (max-width: 360px) {
+}
+@media only screen and (max-width: 768px) {
+	nav a {
+		margin:0;
+		text-decoration: none;
+		color: black;
+		padding: 1%;
+		display: block;
+	}
+	ul {
+    	margin: 1.8em .6em 0;
+	}
+	li {
+		width: 80%;
+	    outline-width: .5em;
+	    padding: .5em;
+	    height: 2em;
+	    line-height: 2em;
+ 	}
+	#heroimage {
+		width: 375px;
+		height: 281px;
+	}
+}
+@media only screen and (min-width:768px) {
+	#nav {
+	
+		border-top: 2px solid #000;
+		border-bottom: 1px solid #000;
+		width: 570px;
+		margin: 20px auto 20px auto;
+		display: inline-block;
+	}
+	#heroimage {
+		width: 600px;
+		height: 450px;
+	}	
+}
+@media only screen and (min-width: 1220px) {
+	hr {
+		width: 25%;
+	}
+	section {
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+	footer {
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+	#left {
+	    float: left;
+	    width: 48%;
+	    padding: 1%;
+	}
+	#right {
+	    float: right;   
+	    width: 48%;
+	    padding: 1%;
+	}
+	.clearfix:after {
+	    visibility: hidden;
+	    display: block;
+	    font-size: 0;
+	    content: " ";
+	    clear: both;
+	    height: 0;
+	}
+	.project {
+		padding-top: 3%;
+		padding-bottom: 1%;
+		width: 40%;
+		justify-content: center;
+	}
+}
+	

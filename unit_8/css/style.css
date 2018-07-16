@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Istok+Web|Monda');
+@import url('https://fonts.googleapis.com/css?family=Rokkitt:300');
+
+body {
+	background-color: rgb(236, 235, 240);
+	color: rgb(34, 34, 34);
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+	justify-content: center;
+	letter-spacing: 1.08px;
+	max-width: 100%;
+	min-width: 0px;
+	font-family: 'Rokkitt', serif;	
+}
+
+a {		
+		text-decoration: none;
+		color: black;
+}
+
+h1 {
+		font-family: 'Monda', sans-serif;
+		font-family: 'Istok Web', sans-serif;
+	}
+
+
+#slogan {
+		font-style: italic;
+	}
+
+
+li {
+		display: inline;
+		margin-right: 1%;
+		font-size: 14px;
+	}
+
+
+
+@media only screen and (max-width: 768px) {
+	nav a {
+		display: block;
+		text-align: center;
+		margin:0;
+		text-decoration: none;
+		color: black;
+		padding: 0;
+	}
+
+	#heroimage {
+		width: 375px;
+		height: 281px;
+	}
+}
+@media only screen and (min-width:768px) {
+	#nav {
+	
+		border-top: 2px solid #000;
+		border-bottom: 1px solid #000;
+		width: 570px;
+		margin: 20px auto 20px auto;
+	}
+
+	#heroimage {
+	width: 600px;
+	height: 450px;
+	}	
+}
+
+@media only screen and (min-width: 1220px) {
+		
+
+	hr {
+		width: 25%;
+	}
+
+
+	section {
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+
+	footer {
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+	
+
+	#left {
+	    float: left;
+	    width: 48%;
+	    padding: 1%;
+	}
+
+	#right {
+	    float: right;   
+	    width: 48%;
+	    padding: 1%;
+	}
+
+	.clearfix:after {
+	    visibility: hidden;
+	    display: block;
+	    font-size: 0;
+	    content: " ";
+	    clear: both;
+	    height: 0;
+	}
+
+	#project {
+		padding-top: 1%;
+		padding-bottom: 1%;
+		max-width: 40%;
+		justify-content: center;
+	}
+
+}
+	
